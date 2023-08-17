@@ -1,0 +1,10 @@
+{
+  "name": "darkmode-w-ssr",
+  "version": "0.0.1",
+  "features": [
+    "react",
+    "api",
+    "static",
+    "tailwind"
+  ]
+}

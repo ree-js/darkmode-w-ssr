@@ -1,0 +1,24 @@
+{
+  "name": "darkmode-w-ssr",
+  "version": "0.0.1",
+  "type": "module",
+  "main": "src/index.js",
+  "dependencies": {
+    "reejs": "^0.10.37",
+    "@reejs/imports": "^2.2.29",
+    "@reejs/server": "^0.10.34",
+    "@reejs/react": "^0.10.34",
+    "@hono/node-server": "file:.reejs/deps/@hono/node-server",
+    "@hono/serve-static": "file:.reejs/deps/@hono/serve-static",
+    "@twind/core": "file:.reejs/deps/@twind/core",
+    "@twind/preset-autoprefix": "file:.reejs/deps/@twind/preset-autoprefix",
+    "@twind/preset-tailwind": "file:.reejs/deps/@twind/preset-tailwind",
+    "@twind/with-react": "file:.reejs/deps/@twind/with-react",
+    "debug": "file:.reejs/deps/debug",
+    "hono": "file:.reejs/deps/hono",
+    "react": "file:.reejs/deps/react",
+    "render": "file:.reejs/deps/render",
+    "use-dark-mode": "file:.reejs/deps/use-dark-mode"
+  },
+  "license": "MIT"
+}
